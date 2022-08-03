@@ -54,7 +54,7 @@ class TodoList extends React.Component{
     return(
       <div className='header'>
         <div className='taskbox'>
-          <h1>Todo Application</h1>
+          <h1>Todo Applications</h1>
           <form>
             <label>Task: </label>
             <input name='added_task' ref={(a) => this.textinput = a}
@@ -68,7 +68,7 @@ class TodoList extends React.Component{
           <p>List of Task</p>
           
           <hr/> 
-          
+
           <div className='list_item'>
             <ul>{listtask}</ul>
           </div>
